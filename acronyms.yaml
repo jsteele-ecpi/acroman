@@ -1,0 +1,2672 @@
+- acronym: "3DES"
+  definition: "Triple Data Encryption Standard"
+  category: "Security / Cryptography"
+  description: "A symmetric-key encryption method which applies the DES cipher algorithm three times to each data block."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "AAA"
+  definition: "Authentication, Authorization, and Accounting"
+  category: "Security / Access Control"
+  description: "A framework for intelligently controlling access to computer resources, enforcing policies, and auditing usage."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ABAC"
+  definition: "Attribute-based Access Control"
+  category: "Security / Access Control"
+  description: "Access control paradigm whereby access rights are granted through the evaluation of attributes (user, resource, environment)."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ACL"
+  definition: "Access Control List"
+  category: "Security / Access Control"
+  description: "A list defining permissions attached to an object, specifying which users or system processes can access it and what operations they can perform."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "AES"
+  definition: "Advanced Encryption Standard"
+  category: "Security / Cryptography"
+  description: "A symmetric key encryption standard used worldwide to secure data; replaced DES as the primary standard."
+  aliases: []
+  origin: ""
+  related_acronyms: ["AES256"]
+  notes: ""
+
+- acronym: "AES256"
+  definition: "Advanced Encryption Standard 256-bit"
+  category: "Security / Cryptography"
+  description: "A variant of AES using a 256-bit key for stronger encryption."
+  aliases: []
+  origin: ""
+  related_acronyms: ["AES"]
+  notes: ""
+
+- acronym: "AH"
+  definition: "Authentication Header"
+  category: "Security / Networking"
+  description: "A protocol used to provide connectionless integrity and data origin authentication for IP datagrams."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ALE"
+  definition: "Annualized Loss Expectancy"
+  category: "Security / Risk Management"
+  description: "The expected monetary loss for an asset due to a risk over a one-year period."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "AP"
+  definition: "Access Point"
+  category: "Networking"
+  description: "A device that allows wireless devices to connect to a wired network using Wi-Fi or related standards."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "API"
+  definition: "Application Programming Interface"
+  category: "Software Development"
+  description: "A set of routines, protocols, and tools for building software and applications, allowing different programs to communicate."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "APT"
+  definition: "Advanced Persistent Threat"
+  category: "Security / Cyber Threats"
+  description: "A prolonged and targeted cyberattack in which an intruder gains access to a network and remains undetected for an extended period."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ARO"
+  definition: "Annualized Rate of Occurrence"
+  category: "Security / Risk Management"
+  description: "The expected frequency with which a threat is anticipated to occur within a single year."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ARP"
+  definition: "Address Resolution Protocol"
+  category: "Networking"
+  description: "A protocol used to map IP addresses to MAC (hardware) addresses within a local network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ASLR"
+  definition: "Address Space Layout Randomization"
+  category: "Security / Exploit Mitigation"
+  description: "A memory-protection technique that randomly arranges the positions of key data areas to prevent predictable memory-based attacks."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ASP"
+  definition: "Application Service Provider"
+  category: "Software / Services"
+  description: "A business providing computer-based services to customers over a network, often via subscription or SaaS model."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "AUP"
+  definition: "Acceptable Use Policy"
+  category: "Security / Policy"
+  description: "A document outlining the rules and regulations governing the use of a network, system, or service."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "AV"
+  definition: "Antivirus"
+  category: "Security / Software"
+  description: "Software designed to detect, prevent, and remove malware from computers and networks."
+  aliases: ["Asset Value"]  # From your list, AV also meant Asset Value
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "BAC"
+  definition: "Business Availability Center"
+  category: "Business / IT Operations"
+  description: "A tool or system used to monitor and manage IT services availability in an organization."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "BCP"
+  definition: "Business Continuity Planning"
+  category: "Business / Risk Management"
+  description: "The process of creating systems of prevention and recovery to deal with potential threats to an organization."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "BIA"
+  definition: "Business Impact Analysis"
+  category: "Business / Risk Management"
+  description: "A process that predicts the consequences of disruption of a business function and gathers information needed to develop recovery strategies."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "BIOS"
+  definition: "Basic Input/Output System"
+  category: "Hardware / System Firmware"
+  description: "Firmware used to perform hardware initialization during booting and to provide runtime services for operating systems."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "BPA"
+  definition: "Business Partners Agreement"
+  category: "Business / Legal"
+  description: "A contract or agreement defining the terms of collaboration between business partners."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "BPDU"
+  definition: "Bridge Protocol Data Unit"
+  category: "Networking / Switching"
+  description: "A type of network message used in the Spanning Tree Protocol (STP) to detect loops in a network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "BYOD"
+  definition: "Bring Your Own Device"
+  category: "Policy / IT Management"
+  description: "A policy allowing employees to use their personal devices for work purposes on corporate networks."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CA"
+  definition: "Certificate Authority"
+  category: "Security / PKI"
+  description: "An entity that issues digital certificates for use in public key infrastructure (PKI), verifying the identity of certificate holders."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CAC"
+  definition: "Common Access Card"
+  category: "Security / Access Control"
+  description: "A smart card issued by the U.S. Department of Defense for identification, authentication, and access to systems and facilities."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CAN"
+  definition: "Controller Area Network"
+  category: "Networking / Embedded Systems"
+  description: "A robust vehicle bus standard designed to allow microcontrollers and devices to communicate without a host computer."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CAPTCHA"
+  definition: "Completely Automated Public Turing Test to Tell Computers and Humans Apart"
+  category: "Security / Authentication"
+  description: "A type of challenge-response test used to determine whether the user is human and prevent automated abuse of services."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CAR"
+  definition: "Corrective Action Report"
+  category: "Business / Quality"
+  description: "A document that records nonconformances and tracks actions taken to correct and prevent them in business processes."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CBC"
+  definition: "Cipher Block Chaining"
+  category: "Security / Cryptography"
+  description: "A mode of operation for block ciphers where each plaintext block is XORed with the previous ciphertext block before being encrypted."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CCMP"
+  definition: "Counter-Mode/CBC-Mac Protocol"
+  category: "Security / Cryptography"
+  description: "A security protocol used in Wi-Fi networks providing confidentiality, authentication, and integrity."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CCTV"
+  definition: "Closed-circuit Television"
+  category: "Security / Surveillance"
+  description: "A system of video cameras used for monitoring and surveillance, typically for security purposes."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CER"
+  definition: "Certificate"
+  category: "Security / PKI"
+  description: "A digital document used to prove the ownership of a public key."
+  aliases: ["Cross-over Error Rate"]  # Second occurrence in list
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CHAP"
+  definition: "Challenge Handshake Authentication Protocol"
+  category: "Security / Authentication"
+  description: "An authentication protocol used to verify the identity of a network peer using a challenge-response mechanism."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CIO"
+  definition: "Chief Information Officer"
+  category: "Business / IT Management"
+  description: "The executive responsible for managing and implementing information and computer technologies in an organization."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CIRT"
+  definition: "Computer Incident Response Team"
+  category: "Security / Incident Response"
+  description: "A team responsible for handling computer security incidents, including detection, containment, and remediation."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CSIRT"]
+  notes: ""
+
+- acronym: "CMS"
+  definition: "Content Management System"
+  category: "Software / Web Development"
+  description: "A software application used to create, manage, and modify digital content on websites without requiring specialized technical knowledge."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "COOP"
+  definition: "Continuity of Operations Plan"
+  category: "Business / Risk Management"
+  description: "A plan to ensure that essential functions continue during and after a disaster or disruption."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "COPE"
+  definition: "Corporate Owned, Personally Enabled"
+  category: "Policy / IT Management"
+  description: "A mobile device management approach where devices are owned by the company but allow personal use."
+  aliases: []
+  origin: ""
+  related_acronyms: ["BYOD"]
+  notes: ""
+
+- acronym: "CP"
+  definition: "Contingency Planning"
+  category: "Business / Risk Management"
+  description: "The process of preparing strategies and actions to recover from unforeseen events or disasters."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CRC"
+  definition: "Cyclical Redundancy Check"
+  category: "Networking / Data Integrity"
+  description: "An error-detecting code used to detect accidental changes to raw data in digital networks and storage devices."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CRL"
+  definition: "Certificate Revocation List"
+  category: "Security / PKI"
+  description: "A list of certificates that have been revoked before their expiration dates and should no longer be trusted."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CSIRT"
+  definition: "Computer Security Incident Response Team"
+  category: "Security / Incident Response"
+  description: "A team that handles security incidents, focusing on detection, response, and remediation of cyber threats."
+  aliases: ["CIRT"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CSO"
+  definition: "Chief Security Officer"
+  category: "Business / Security"
+  description: "An executive responsible for the security of a company’s physical and digital assets."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CSP"
+  definition: "Cloud Service Provider"
+  category: "Cloud / Services"
+  description: "A company that offers cloud-based platforms, infrastructure, or software services to customers over the internet."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IaaS", "PaaS", "SaaS"]
+  notes: ""
+
+- acronym: "CSR"
+  definition: "Certificate Signing Request"
+  category: "Security / PKI"
+  description: "A message sent from an applicant to a Certificate Authority to request a digital certificate."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CSRF"
+  definition: "Cross-site Request Forgery"
+  category: "Security / Web Security"
+  description: "An attack that forces an end user to execute unwanted actions on a web application in which they're currently authenticated."
+  aliases: ["XSRF"]  # from your list
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CSU"
+  definition: "Channel Service Unit"
+  category: "Networking / Hardware"
+  description: "A device used to connect a digital WAN to a customer’s premises, often used in T1 circuits."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CTM"
+  definition: "Counter-Mode"
+  category: "Security / Cryptography"
+  description: "A block cipher mode of operation used for encryption, often paired with a message authentication code."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CTR"]
+  notes: ""
+
+- acronym: "CTO"
+  definition: "Chief Technology Officer"
+  category: "Business / IT Management"
+  description: "An executive responsible for overseeing the technological direction and innovation strategy of a company."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "CTR"
+  definition: "Counter"
+  category: "Security / Cryptography"
+  description: "A mode of operation for block ciphers that generates the next keystream block by encrypting successive values of a counter."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CTM"]
+  notes: ""
+
+- acronym: "CYOD"
+  definition: "Choose Your Own Device"
+  category: "Policy / IT Management"
+  description: "A corporate policy allowing employees to select from a set of approved devices for work purposes."
+  aliases: []
+  origin: ""
+  related_acronyms: ["BYOD", "COPE"]
+  notes: ""
+
+- acronym: "DAC"
+  definition: "Discretionary Access Control"
+  category: "Security / Access Control"
+  description: "A type of access control where the resource owner determines who is allowed access to specific resources."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MAC", "RBAC"]
+  notes: ""
+
+- acronym: "DBA"
+  definition: "Database Administrator"
+  category: "Software / IT Roles"
+  description: "A professional responsible for managing, maintaining, and securing databases in an organization."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DDoS"
+  definition: "Distributed Denial of Service"
+  category: "Security / Cyber Threats"
+  description: "An attack in which multiple compromised systems flood a target system with traffic, rendering it unavailable."
+  aliases: []
+  origin: ""
+  related_acronyms: ["DoS"]
+  notes: ""
+
+- acronym: "DEP"
+  definition: "Data Execution Prevention"
+  category: "Security / Exploit Mitigation"
+  description: "A security feature that prevents code from being executed from regions of memory intended for data storage."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DER"
+  definition: "Distinguished Encoding Rules"
+  category: "Security / PKI"
+  description: "A binary format for data structures described by ASN.1, commonly used for X.509 certificates."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DES"
+  definition: "Digital Encryption Standard"
+  category: "Security / Cryptography"
+  description: "An outdated symmetric-key algorithm for encryption, replaced by AES due to security vulnerabilities."
+  aliases: []
+  origin: ""
+  related_acronyms: ["3DES"]
+  notes: ""
+
+- acronym: "DFIR"
+  definition: "Digital Forensics and Investigation Response"
+  category: "Security / Incident Response"
+  description: "The field and processes involving the investigation and analysis of digital evidence following security incidents."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IR", "IRP"]
+  notes: ""
+
+- acronym: "DHCP"
+  definition: "Dynamic Host Configuration Protocol"
+  category: "Networking"
+  description: "A protocol used to automatically assign IP addresses and other network configuration parameters to devices on a network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DHE"
+  definition: "Diffie-Hellman Ephemeral"
+  category: "Security / Cryptography"
+  description: "A key exchange protocol variant providing forward secrecy by generating temporary session keys for each session."
+  aliases: ["Data-Handling Electronics"]  # From your list
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DLL"
+  definition: "Dynamic Link Library"
+  category: "Software / Windows"
+  description: "A file format used for holding multiple codes and procedures that can be shared by multiple programs in Windows."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DLP"
+  definition: "Data Loss Prevention"
+  category: "Security / Data Protection"
+  description: "A strategy and set of tools used to ensure sensitive data is not lost, misused, or accessed by unauthorized users."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DMZ"
+  definition: "Demilitarized Zone"
+  category: "Networking / Security"
+  description: "A physical or logical subnet that separates an internal local area network from other untrusted networks, usually the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DNAT"
+  definition: "Destination Network Address Translation"
+  category: "Networking / Security"
+  description: "A method of remapping one IP address to another by modifying network address information in packet headers."
+  aliases: []
+  origin: ""
+  related_acronyms: ["NAT"]
+  notes: ""
+
+- acronym: "DNS"
+  definition: "Domain Name System"
+  category: "Networking"
+  description: "A hierarchical system for naming resources on the Internet and translating domain names into IP addresses."
+  aliases: ["Domain Name Service"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DoS"
+  definition: "Denial of Service"
+  category: "Security / Cyber Threats"
+  description: "An attack aimed at making a machine or network resource unavailable to its intended users."
+  aliases: []
+  origin: ""
+  related_acronyms: ["DDoS"]
+  notes: ""
+
+- acronym: "DRP"
+  definition: "Disaster Recovery Plan"
+  category: "Business / Risk Management"
+  description: "A documented process to recover and protect a business IT infrastructure in the event of a disaster."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DSA"
+  definition: "Digital Signature Algorithm"
+  category: "Security / Cryptography"
+  description: "A Federal Information Processing Standard for digital signatures."
+  aliases: []
+  origin: ""
+  related_acronyms: ["RSA", "ECDSA"]
+  notes: ""
+
+- acronym: "DSL"
+  definition: "Digital Subscriber Line"
+  category: "Networking / Internet"
+  description: "A family of technologies that provide Internet access by transmitting digital data over telephone lines."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "DSU"
+  definition: "Data Service Unit"
+  category: "Networking / Hardware"
+  description: "A device that connects to a digital circuit and formats signals for transmission over a network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "EAP"
+  definition: "Extensible Authentication Protocol"
+  category: "Security / Authentication"
+  description: "An authentication framework that supports multiple authentication methods for network access."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PEAP", "LEAP"]
+  notes: ""
+
+- acronym: "ECB"
+  definition: "Electronic Code Book"
+  category: "Security / Cryptography"
+  description: "A mode of operation for block ciphers where each block is encrypted independently; not recommended due to pattern leakage."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CBC", "CTM", "CTR"]
+  notes: ""
+
+- acronym: "ECC"
+  definition: "Elliptic Curve Cryptography"
+  category: "Security / Cryptography"
+  description: "A public-key cryptography approach based on the algebraic structure of elliptic curves over finite fields."
+  aliases: []
+  origin: ""
+  related_acronyms: ["ECDSA", "ECDHE"]
+  notes: ""
+
+- acronym: "ECDHE"
+  definition: "Elliptic Curve Diffie-Hellman Ephemeral"
+  category: "Security / Cryptography"
+  description: "A key agreement protocol using ephemeral elliptic curve keys to provide forward secrecy."
+  aliases: []
+  origin: ""
+  related_acronyms: ["ECDSA", "DHE"]
+  notes: ""
+
+- acronym: "ECDSA"
+  definition: "Elliptic Curve Digital Signature Algorithm"
+  category: "Security / Cryptography"
+  description: "A cryptographic algorithm used to generate and verify digital signatures using elliptic curve principles."
+  aliases: []
+  origin: ""
+  related_acronyms: ["ECC", "ECDHE", "DSA"]
+  notes: ""
+
+- acronym: "EFS"
+  definition: "Encrypted File System"
+  category: "Security / Storage"
+  description: "A feature in Windows that allows users to store encrypted files transparently on disk."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "EMI"
+  definition: "Electromagnetic Interference"
+  category: "Hardware / Networking"
+  description: "Disruption of electronic devices caused by external electromagnetic fields."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "EMP"
+  definition: "Electro Magnetic Pulse"
+  category: "Security / Threats"
+  description: "A burst of electromagnetic radiation that can disrupt or damage electronic equipment."
+  aliases: []
+  origin: ""
+  related_acronyms: ["EMI"]
+  notes: ""
+
+- acronym: "ERP"
+  definition: "Enterprise Resource Planning"
+  category: "Software / Business"
+  description: "A type of software used by organizations to manage and integrate core business processes."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ESN"
+  definition: "Electronic Serial Number"
+  category: "Hardware / Identification"
+  description: "A unique identifier assigned to mobile devices for identification purposes."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ESP"
+  definition: "Encapsulated Security Payload"
+  category: "Security / Networking"
+  description: "A protocol within IPsec providing confidentiality, data origin authentication, and integrity."
+  aliases: []
+  origin: ""
+  related_acronyms: ["AH"]
+  notes: ""
+
+- acronym: "EF"
+  definition: "Exposure Factor"
+  category: "Security / Risk Management"
+  description: "The percentage of asset value that is lost if a specific threat occurs."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "FACL"
+  definition: "File System Access Control List"
+  category: "Security / Access Control"
+  description: "A list specifying permissions attached to files and directories for controlling user access."
+  aliases: ["ACL"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "FAR"
+  definition: "False Acceptance Rate"
+  category: "Security / Biometrics"
+  description: "The probability that a biometric security system incorrectly grants access to an unauthorized user."
+  aliases: []
+  origin: ""
+  related_acronyms: ["FRR"]
+  notes: ""
+
+- acronym: "FDE"
+  definition: "Full Disk Encryption"
+  category: "Security / Storage"
+  description: "A method of encrypting all data on a disk to protect it from unauthorized access."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "FRR"
+  definition: "False Rejection Rate"
+  category: "Security / Biometrics"
+  description: "The probability that a biometric security system incorrectly rejects an authorized user."
+  aliases: []
+  origin: ""
+  related_acronyms: ["FAR"]
+  notes: ""
+
+- acronym: "FTP"
+  definition: "File Transfer Protocol"
+  category: "Networking / File Transfer"
+  description: "A protocol used to transfer files between client and server over a network."
+  aliases: []
+  origin: ""
+  related_acronyms: ["FTPS", "SFTP"]
+  notes: ""
+
+- acronym: "FTPS"
+  definition: "Secured File Transfer Protocol"
+  category: "Networking / File Transfer"
+  description: "An extension to FTP that adds support for SSL/TLS to secure file transfers."
+  aliases: []
+  origin: ""
+  related_acronyms: ["FTP", "SFTP"]
+  notes: ""
+
+- acronym: "GCM"
+  definition: "Galois Counter Mode"
+  category: "Security / Cryptography"
+  description: "A mode of operation for symmetric key cryptographic block ciphers providing confidentiality and data authenticity."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CTR", "CCMP"]
+  notes: ""
+
+- acronym: "GPG"
+  definition: "Gnu Privacy Guard"
+  category: "Security / Cryptography"
+  description: "An open-source implementation of the OpenPGP standard for encrypting and signing data and communications."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PGP"]
+  notes: ""
+
+- acronym: "GPO"
+  definition: "Group Policy Object"
+  category: "Software / IT Management"
+  description: "A collection of settings in Windows environments that control the working environment of user accounts and computer accounts."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "GPS"
+  definition: "Global Positioning System"
+  category: "Networking / Location Services"
+  description: "A satellite-based navigation system that provides location and time information anywhere on Earth."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "GPU"
+  definition: "Graphics Processing Unit"
+  category: "Hardware / Computing"
+  description: "A specialized processor designed to accelerate graphics rendering and parallel computation."
+  aliases: ["Graphic Processing Unit"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "GRE"
+  definition: "Generic Routing Encapsulation"
+  category: "Networking / Tunneling"
+  description: "A tunneling protocol used to encapsulate packets for transmission over a network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "HA"
+  definition: "High Availability"
+  category: "Networking / IT Infrastructure"
+  description: "A system design approach that ensures a certain degree of operational continuity and uptime."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "HDD"
+  definition: "Hard Disk Drive"
+  category: "Hardware / Storage"
+  description: "A data storage device that uses magnetic storage to store and retrieve digital information."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SSD"]
+  notes: ""
+
+- acronym: "HIDS"
+  definition: "Host-based Intrusion Detection System"
+  category: "Security / Monitoring"
+  description: "A system that monitors and analyzes the internals of a computing system for signs of malicious activity."
+  aliases: []
+  origin: ""
+  related_acronyms: ["NIDS", "HIPS"]
+  notes: ""
+
+- acronym: "HIPS"
+  definition: "Host-based Intrusion Prevention System"
+  category: "Security / Monitoring"
+  description: "A system that monitors and actively blocks malicious activity on a host."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HIDS"]
+  notes: ""
+
+- acronym: "HMAC"
+  definition: "Hashed Message Authentication Code"
+  category: "Security / Cryptography"
+  description: "A specific type of message authentication code involving a cryptographic hash function and a secret key."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "HOTP"
+  definition: "HMAC-based One-Time Password"
+  category: "Security / Authentication"
+  description: "A one-time password algorithm based on HMAC used for authenticating users."
+  aliases: []
+  origin: ""
+  related_acronyms: ["TOTP"]
+  notes: ""
+
+- acronym: "HSM"
+  definition: "Hardware Security Module"
+  category: "Security / Hardware"
+  description: "A physical device used for the secure generation, storage, and management of cryptographic keys."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "HTML"
+  definition: "Hypertext Markup Language"
+  category: "Software / Web Development"
+  description: "The standard markup language for documents designed to be displayed in web browsers."
+  aliases: []
+  origin: ""
+  related_acronyms: ["XML", "CSS", "JS"]
+  notes: ""
+
+- acronym: "HTTP"
+  definition: "Hypertext Transfer Protocol"
+  category: "Networking / Web"
+  description: "An application-layer protocol for transmitting hypermedia documents, such as HTML, over the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HTTPS"]
+  notes: ""
+
+- acronym: "HTTPS"
+  definition: "Hypertext Transfer Protocol over SSL/TLS"
+  category: "Networking / Web Security"
+  description: "An extension of HTTP that provides secure communication over a computer network using SSL/TLS."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HTTP"]
+  notes: ""
+
+- acronym: "HVAC"
+  definition: "Heating, Ventilation and Air Conditioning"
+  category: "Hardware / Environmental"
+  description: "Technology for indoor and vehicular environmental comfort, regulating temperature, humidity, and air quality."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "IaaS"
+  definition: "Infrastructure as a Service"
+  category: "Cloud / Services"
+  description: "A form of cloud computing providing virtualized computing resources over the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PaaS", "SaaS", "CSP"]
+  notes: ""
+
+- acronym: "ICMP"
+  definition: "Internet Control Message Protocol"
+  category: "Networking"
+  description: "A supporting protocol in the Internet protocol suite used by network devices to send error messages and operational information."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ICS"
+  definition: "Industrial Control Systems"
+  category: "Networking / Industrial"
+  description: "Control systems used to monitor and manage industrial processes, including SCADA and DCS systems."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ID"
+  definition: "Identification"
+  category: "Security / Authentication"
+  description: "A means of recognizing a user, device, or resource in a system or network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "IDEA"
+  definition: "International Data Encryption Algorithm"
+  category: "Security / Cryptography"
+  description: "A symmetric-key block cipher used for encrypting data."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "IDF"
+  definition: "Intermediate Distribution Frame"
+  category: "Networking / Infrastructure"
+  description: "A distribution frame in a building or campus that connects and manages telecommunications wiring between the main distribution frame and end-user devices."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MDF"]
+  notes: ""
+
+- acronym: "IdP"
+  definition: "Identity Provider"
+  category: "Security / Authentication"
+  description: "A service that manages identity information and provides authentication services to relying parties."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SAML", "OAuth"]
+  notes: ""
+
+- acronym: "IDS"
+  definition: "Intrusion Detection System"
+  category: "Security / Monitoring"
+  description: "A system that monitors network or system activities for malicious activity or policy violations."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IPS", "HIDS", "NIDS"]
+  notes: ""
+
+- acronym: "IEEE"
+  definition: "Institute of Electrical and Electronic Engineers"
+  category: "Organization / Standards"
+  description: "A professional association that develops and publishes technical standards for a wide range of industries."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "IIS"
+  definition: "Internet Information Services"
+  category: "Software / Web Servers"
+  description: "A web server software package designed for Windows Server to host websites and applications."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "IKE"
+  definition: "Internet Key Exchange"
+  category: "Security / Networking"
+  description: "A protocol used to set up a security association in the IPsec protocol suite."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IPSec"]
+  notes: ""
+
+- acronym: "IM"
+  definition: "Instant Messaging"
+  category: "Software / Communication"
+  description: "A type of online chat that offers real-time text transmission over the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SMS", "MMS"]
+  notes: ""
+
+- acronym: "IMAP4"
+  definition: "Internet Message Access Protocol v4"
+  category: "Networking / Email"
+  description: "A protocol for retrieving and storing email messages on a mail server, allowing multiple clients to access the same mailbox."
+  aliases: ["IMAP"]
+  origin: ""
+  related_acronyms: ["POP"]
+  notes: ""
+
+- acronym: "IoT"
+  definition: "Internet of Things"
+  category: "Networking / Devices"
+  description: "The network of physical devices embedded with sensors, software, and other technologies to connect and exchange data."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "IP"
+  definition: "Internet Protocol"
+  category: "Networking"
+  description: "The principal communications protocol for relaying datagrams across network boundaries."
+  aliases: []
+  origin: ""
+  related_acronyms: ["TCP/IP", "UDP", "IPSec"]
+  notes: ""
+
+- acronym: "IPSec"
+  definition: "Internet Protocol Security"
+  category: "Security / Networking"
+  description: "A suite of protocols to secure Internet Protocol communications through authentication and encryption."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IP", "AH", "ESP"]
+  notes: ""
+
+- acronym: "IR"
+  definition: "Incident Response"
+  category: "Security / Incident Response"
+  description: "The process of detecting, investigating, and mitigating cyber security incidents."
+  aliases: ["Infrared"]  # second meaning in your list
+  origin: ""
+  related_acronyms: ["IRP", "DFIR"]
+  notes: ""
+
+- acronym: "IRC"
+  definition: "Internet Relay Chat"
+  category: "Networking / Communication"
+  description: "A protocol for real-time text messaging over the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "IRP"
+  definition: "Incident Response Plan"
+  category: "Security / Incident Response"
+  description: "A documented set of procedures and guidelines to follow when a security incident occurs."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IR", "DFIR"]
+  notes: ""
+
+- acronym: "ISA"
+  definition: "Interconnection Security Agreement"
+  category: "Security / Policy"
+  description: "A formal agreement that defines the technical and security requirements for exchanging information between organizations."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ISP"
+  definition: "Internet Service Provider"
+  category: "Networking / Services"
+  description: "A company that provides access to the Internet and related services."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ISSO"
+  definition: "Information Systems Security Officer"
+  category: "Security / Roles"
+  description: "An individual responsible for overseeing the security of information systems within an organization."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "ITCP"
+  definition: "IT Contingency Plan"
+  category: "Business / Risk Management"
+  description: "A plan that provides procedures for recovery of IT systems after disruption or disaster."
+  aliases: []
+  origin: ""
+  related_acronyms: ["DRP", "CP"]
+  notes: ""
+
+- acronym: "IV"
+  definition: "Initialization Vector"
+  category: "Security / Cryptography"
+  description: "A random or pseudo-random value used to initialize cryptographic algorithms to ensure uniqueness in encryption."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "KDC"
+  definition: "Key Distribution Center"
+  category: "Security / Authentication"
+  description: "A network service that supplies session keys for secure communications, commonly used in Kerberos."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "KEK"
+  definition: "Key Encryption Key"
+  category: "Security / Cryptography"
+  description: "A cryptographic key used to encrypt other keys for secure storage or transmission."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "L2TP"
+  definition: "Layer 2 Tunneling Protocol"
+  category: "Networking / VPN"
+  description: "A tunneling protocol used to support virtual private networks (VPNs) or as part of delivery services for DSL connections."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PPTP", "VPN"]
+  notes: ""
+
+- acronym: "LAN"
+  definition: "Local Area Network"
+  category: "Networking"
+  description: "A network that connects computers and devices within a limited area such as a building or campus."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WAN", "WLAN", "VLAN"]
+  notes: ""
+
+- acronym: "LDAP"
+  definition: "Lightweight Directory Access Protocol"
+  category: "Networking / Authentication"
+  description: "A protocol used to access and maintain distributed directory information services over a network."
+  aliases: []
+  origin: ""
+  related_acronyms: ["AD", "IdP"]
+  notes: ""
+
+- acronym: "LEAP"
+  definition: "Lightweight Extensible Authentication Protocol"
+  category: "Security / Authentication"
+  description: "A proprietary wireless LAN authentication protocol developed by Cisco."
+  aliases: []
+  origin: ""
+  related_acronyms: ["EAP", "PEAP"]
+  notes: ""
+
+- acronym: "MaaS"
+  definition: "Monitoring as a Service"
+  category: "Cloud / Services"
+  description: "A cloud computing service model that provides monitoring and alerting of IT resources and applications."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "MAC"
+  definition: "Media Access Control"
+  category: "Networking"
+  description: "A unique identifier assigned to network interfaces for communications at the data link layer of a network segment."
+  aliases: ["Mandatory Access Control", "Message Authentication Code"]  # all 3 meanings from list
+  origin: ""
+  related_acronyms: ["ACL", "DAC", "RBAC"]
+  notes: ""
+
+- acronym: "MAN"
+  definition: "Metropolitan Area Network"
+  category: "Networking"
+  description: "A network that spans a city or large campus, connecting multiple local area networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["LAN", "WAN"]
+  notes: ""
+
+- acronym: "MBR"
+  definition: "Master Boot Record"
+  category: "Hardware / Storage"
+  description: "A special type of boot sector at the beginning of partitioned computer mass storage devices."
+  aliases: []
+  origin: ""
+  related_acronyms: ["GPT"]
+  notes: ""
+
+- acronym: "MD5"
+  definition: "Message Digest 5"
+  category: "Security / Cryptography"
+  description: "A widely used cryptographic hash function producing a 128-bit hash value, now considered broken for security purposes."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SHA"]
+  notes: ""
+
+- acronym: "MDF"
+  definition: "Main Distribution Frame"
+  category: "Networking / Infrastructure"
+  description: "The primary hub for telecommunications wiring within a building, connecting external lines to internal networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IDF"]
+  notes: ""
+
+- acronym: "MDM"
+  definition: "Mobile Device Management"
+  category: "Security / IT Management"
+  description: "A type of security software used to monitor, manage, and secure employees’ mobile devices in an organization."
+  aliases: []
+  origin: ""
+  related_acronyms: ["BYOD", "COPE", "CYOD"]
+  notes: ""
+
+- acronym: "MFA"
+  definition: "Multi-Factor Authentication"
+  category: "Security / Authentication"
+  description: "A security system that requires more than one method of authentication from independent categories of credentials."
+  aliases: []
+  origin: ""
+  related_acronyms: ["TOTP", "HOTP"]
+  notes: ""
+
+- acronym: "MFD"
+  definition: "Multi-function Device"
+  category: "Hardware / Office Equipment"
+  description: "A device that combines printing, scanning, faxing, and copying into a single machine."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "MITM"
+  definition: "Man-in-the-Middle"
+  category: "Security / Cyber Threats"
+  description: "A type of cyberattack where the attacker secretly intercepts and possibly alters communication between two parties."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "MMS"
+  definition: "Multimedia Message Service"
+  category: "Networking / Communication"
+  description: "A standard way to send messages that include multimedia content to and from mobile phones."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SMS", "IM"]
+  notes: ""
+
+- acronym: "MOA"
+  definition: "Memorandum of Agreement"
+  category: "Business / Legal"
+  description: "A formal document outlining the terms and responsibilities agreed upon by parties entering into a cooperative arrangement."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MOU"]
+  notes: ""
+
+- acronym: "MOU"
+  definition: "Memorandum of Understanding"
+  category: "Business / Legal"
+  description: "A document describing an agreement between two or more parties before the creation of a formal contract."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MOA"]
+  notes: ""
+
+- acronym: "MPLS"
+  definition: "Multi-protocol Label Switching"
+  category: "Networking"
+  description: "A routing technique in telecommunications networks that directs data from one node to the next based on short path labels rather than long network addresses."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "MSCHAP"
+  definition: "Microsoft Challenge Handshake Authentication Protocol"
+  category: "Security / Authentication"
+  description: "A proprietary authentication protocol used primarily by Microsoft for securing network access."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CHAP"]
+  notes: ""
+
+- acronym: "MSP"
+  definition: "Managed Service Provider"
+  category: "Business / IT Services"
+  description: "A company that remotely manages a customer’s IT infrastructure and end-user systems."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CSP"]
+  notes: ""
+
+- acronym: "MTBF"
+  definition: "Mean Time Between Failures"
+  category: "Hardware / Reliability"
+  description: "A reliability metric representing the average time elapsed between a system’s failures."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MTTF", "MTTR"]
+  notes: ""
+
+- acronym: "MTTF"
+  definition: "Mean Time to Failure"
+  category: "Hardware / Reliability"
+  description: "A reliability metric indicating the expected operational time of a non-repairable system before failure."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MTBF", "MTTR"]
+  notes: ""
+
+- acronym: "MTTR"
+  definition: "Mean Time to Recover or Mean Time to Repair"
+  category: "Hardware / Reliability"
+  description: "The average time required to repair a failed component or system and restore it to full functionality."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MTBF", "MTTF"]
+  notes: ""
+
+- acronym: "NAC"
+  definition: "Network Access Control"
+  category: "Security / Networking"
+  description: "A method of restricting network access to devices that comply with security policies."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "NAT"
+  definition: "Network Address Translation"
+  category: "Networking"
+  description: "A method of remapping one IP address space into another by modifying network address information in packet headers."
+  aliases: []
+  origin: ""
+  related_acronyms: ["DNAT"]
+  notes: ""
+
+- acronym: "NDA"
+  definition: "Non-disclosure Agreement"
+  category: "Business / Legal"
+  description: "A legally binding contract that establishes a confidential relationship between parties."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "NFC"
+  definition: "Near Field Communication"
+  category: "Networking / Wireless"
+  description: "A set of communication protocols that enable two electronic devices to communicate within a short range."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "NGAC"
+  definition: "Next Generation Access Control"
+  category: "Security / Access Control"
+  description: "An access control framework designed to support dynamic, attribute-based access policies."
+  aliases: []
+  origin: ""
+  related_acronyms: ["ABAC", "RBAC"]
+  notes: ""
+
+- acronym: "NIDS"
+  definition: "Network-based Intrusion Detection System"
+  category: "Security / Monitoring"
+  description: "A system that monitors network traffic for suspicious activity and potential threats."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HIDS", "NIPS"]
+  notes: ""
+
+- acronym: "NIPS"
+  definition: "Network-based Intrusion Prevention System"
+  category: "Security / Monitoring"
+  description: "A system that monitors and actively blocks malicious activity at the network level."
+  aliases: []
+  origin: ""
+  related_acronyms: ["NIDS"]
+  notes: ""
+
+- acronym: "NIST"
+  definition: "National Institute of Standards & Technology"
+  category: "Organization / Standards"
+  description: "A U.S. federal agency that develops standards, guidelines, and best practices for technology and cybersecurity."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "NTFS"
+  definition: "New Technology File System"
+  category: "Hardware / Storage"
+  description: "A proprietary file system developed by Microsoft for Windows operating systems."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "NTLM"
+  definition: "New Technology LAN Manager"
+  category: "Security / Authentication"
+  description: "A suite of Microsoft security protocols intended to provide authentication, integrity, and confidentiality to users."
+  aliases: []
+  origin: ""
+  related_acronyms: ["Kerberos"]
+  notes: ""
+
+- acronym: "NTP"
+  definition: "Network Time Protocol"
+  category: "Networking"
+  description: "A protocol for clock synchronization between computer systems over packet-switched, variable-latency data networks."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "OAUTH"
+  definition: "Open Authorization"
+  category: "Security / Authentication"
+  description: "An open standard for access delegation, commonly used as a way for Internet users to grant websites access to their information without sharing passwords."
+  aliases: []
+  origin: ""
+  related_acronyms: ["OAuth2", "SAML", "IdP"]
+  notes: ""
+
+- acronym: "OCSP"
+  definition: "Online Certificate Status Protocol"
+  category: "Security / PKI"
+  description: "A protocol used for obtaining the revocation status of an X.509 digital certificate."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CRL"]
+  notes: ""
+
+- acronym: "OID"
+  definition: "Object Identifier"
+  category: "Security / PKI"
+  description: "A globally unique identifier used in many computing and networking standards."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "OS"
+  definition: "Operating System"
+  category: "Software / Systems"
+  description: "System software that manages computer hardware and software resources and provides common services for programs."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "OTA"
+  definition: "Over The Air"
+  category: "Networking / Wireless"
+  description: "The process of distributing new software, configuration settings, or updates to devices wirelessly."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "OVAL"
+  definition: "Open Vulnerability Assessment Language"
+  category: "Security / Standards"
+  description: "An international standard for representing system security information and assessing vulnerabilities."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "P12"
+  definition: "PKCS #12"
+  category: "Security / PKI"
+  description: "A file format used to store private keys and certificates securely."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PFX"]
+  notes: ""
+
+- acronym: "P2P"
+  definition: "Peer to Peer"
+  category: "Networking / Communication"
+  description: "A decentralized communications model in which each party has equivalent capabilities and either party can initiate a communication session."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "PaaS"
+  definition: "Platform as a Service"
+  category: "Cloud / Services"
+  description: "A cloud computing service that provides a platform allowing customers to develop, run, and manage applications without managing infrastructure."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IaaS", "SaaS", "CSP"]
+  notes: ""
+
+- acronym: "PAC"
+  definition: "Proxy Auto Configuration"
+  category: "Networking / Web"
+  description: "A file format used to define how web browsers and user agents automatically choose the appropriate proxy server for fetching a URL."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "PAM"
+  definition: "Pluggable Authentication Modules"
+  category: "Security / Authentication"
+  description: "A mechanism to integrate multiple low-level authentication schemes into a high-level application programming interface (API)."
+  aliases: []
+  origin: ""
+  related_acronyms: ["EAP"]
+  notes: ""
+
+- acronym: "PAP"
+  definition: "Password Authentication Protocol"
+  category: "Security / Authentication"
+  description: "A simple authentication protocol that uses a two-way handshake to verify identity using plaintext passwords."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CHAP", "MSCHAP"]
+  notes: ""
+
+- acronym: "PAT"
+  definition: "Port Address Translation"
+  category: "Networking / Security"
+  description: "A type of NAT that maps multiple private IP addresses to a single public IP address using different ports."
+  aliases: []
+  origin: ""
+  related_acronyms: ["NAT", "DNAT"]
+  notes: ""
+
+- acronym: "PBKDF2"
+  definition: "Password-based Key Derivation Function 2"
+  category: "Security / Cryptography"
+  description: "A key derivation function that applies a pseudorandom function to a password or passphrase along with a salt to produce a cryptographic key."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "PBX"
+  definition: "Private Branch Exchange"
+  category: "Networking / Telephony"
+  description: "A private telephone network used within an organization that allows internal communication and external line access."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "PCAP"
+  definition: "Packet Capture"
+  category: "Networking / Monitoring"
+  description: "A file format or tool used to capture network packets for analysis and troubleshooting."
+  aliases: []
+  origin: ""
+  related_acronyms: ["Wireshark"]
+  notes: ""
+
+- acronym: "PEAP"
+  definition: "Protected Extensible Authentication Protocol"
+  category: "Security / Authentication"
+  description: "An authentication protocol that encapsulates EAP within an encrypted and authenticated TLS tunnel."
+  aliases: []
+  origin: ""
+  related_acronyms: ["EAP", "LEAP"]
+  notes: ""
+
+- acronym: "PED"
+  definition: "Personal Electronic Device"
+  category: "Hardware / Devices"
+  description: "Any portable electronic device, such as smartphones, tablets, or laptops."
+  aliases: []
+  origin: ""
+  related_acronyms: ["BYOD", "COPE", "CYOD"]
+  notes: ""
+
+- acronym: "PEM"
+  definition: "Privacy-enhanced Electronic Mail"
+  category: "Security / Email"
+  description: "A standard for securing email messages using encryption and digital signatures."
+  aliases: []
+  origin: ""
+  related_acronyms: ["S/MIME", "PGP"]
+  notes: ""
+
+- acronym: "PFS"
+  definition: "Perfect Forward Secrecy"
+  category: "Security / Cryptography"
+  description: "A property of key agreement protocols that ensures session keys cannot be compromised even if the long-term private keys are compromised in the future."
+  aliases: []
+  origin: ""
+  related_acronyms: ["ECDHE", "DHE"]
+  notes: ""
+
+- acronym: "PFX"
+  definition: "Personal Exchange Format"
+  category: "Security / PKI"
+  description: "A file format used to store cryptographic information including private keys and certificates, similar to PKCS #12."
+  aliases: ["P12"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "PGP"
+  definition: "Pretty Good Privacy"
+  category: "Security / Cryptography"
+  description: "An encryption program that provides cryptographic privacy and authentication for data communication."
+  aliases: ["GPG"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "PHI"
+  definition: "Personal Health Information"
+  category: "Security / Privacy"
+  description: "Individually identifiable health information protected under laws such as HIPAA."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PII"]
+  notes: ""
+
+- acronym: "PII"
+  definition: "Personally Identifiable Information"
+  category: "Security / Privacy"
+  description: "Information that can be used to identify an individual, such as names, social security numbers, and email addresses."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PHI"]
+  notes: ""
+
+- acronym: "PIV"
+  definition: "Personal Identity Verification"
+  category: "Security / Authentication"
+  description: "A U.S. federal standard for smart cards used for secure access to government facilities and information systems."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CAC"]
+  notes: ""
+
+- acronym: "PKI"
+  definition: "Public Key Infrastructure"
+  category: "Security / Cryptography"
+  description: "A framework for managing digital keys and certificates to enable secure electronic communications."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CA", "CSR", "OCSP", "CRL"]
+  notes: ""
+
+- acronym: "POODLE"
+  definition: "Padding Oracle on Downgrade Legacy Encryption"
+  category: "Security / Vulnerability"
+  description: "A security vulnerability that affects SSL 3.0, allowing attackers to decrypt sensitive information."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SSL", "TLS"]
+  notes: ""
+
+- acronym: "POP"
+  definition: "Post Office Protocol"
+  category: "Networking / Email"
+  description: "A protocol used by local email clients to retrieve emails from a remote server over a TCP/IP connection."
+  aliases: ["POP3"]
+  origin: ""
+  related_acronyms: ["IMAP4"]
+  notes: ""
+
+- acronym: "POTS"
+  definition: "Plain Old Telephone Service"
+  category: "Networking / Telephony"
+  description: "The standard analog voice transmission phone service, in contrast to modern VoIP and digital technologies."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PBX"]
+  notes: ""
+
+- acronym: "PPP"
+  definition: "Point-to-Point Protocol"
+  category: "Networking"
+  description: "A data link protocol commonly used to establish a direct connection between two network nodes."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PPTP", "L2TP"]
+  notes: ""
+
+- acronym: "PPTP"
+  definition: "Point-to-Point Tunneling Protocol"
+  category: "Networking / VPN"
+  description: "A protocol for implementing virtual private networks by encapsulating PPP packets into IP datagrams."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PPP", "L2TP", "VPN"]
+  notes: ""
+
+- acronym: "PSK"
+  definition: "Pre-shared Key"
+  category: "Security / Networking"
+  description: "A shared secret used for authentication between two parties, often in Wi-Fi networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WPA", "WPA2"]
+  notes: ""
+
+- acronym: "PTZ"
+  definition: "Pan-Tilt-Zoom"
+  category: "Hardware / Surveillance"
+  description: "A camera feature allowing remote directional and zoom control for surveillance cameras."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CCTV"]
+  notes: ""
+
+- acronym: "RA"
+  definition: "Registration Authority / Recovery Agent"
+  category: "Security / PKI"
+  description: "An entity responsible for accepting requests for digital certificates and authenticating the entity making the request; also can refer to a key recovery agent in cryptography."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CA", "PKI"]
+  notes: ""
+
+- acronym: "RAD"
+  definition: "Rapid Application Development"
+  category: "Software Development / Methodology"
+  description: "A type of software development methodology emphasizing quick prototyping and iterative delivery over long planning cycles."
+  aliases: []
+  origin: ""
+  related_acronyms: ["Agile"]
+  notes: ""
+
+- acronym: "RADIUS"
+  definition: "Remote Authentication Dial-in User Server"
+  category: "Security / Authentication"
+  description: "A networking protocol that provides centralized Authentication, Authorization, and Accounting (AAA) management for users."
+  aliases: []
+  origin: ""
+  related_acronyms: ["AAA"]
+  notes: ""
+
+- acronym: "RAID"
+  definition: "Redundant Array of Independent Disks"
+  category: "Hardware / Storage"
+  description: "A data storage virtualization technology that combines multiple physical disk drive components into one logical unit for redundancy and/or performance."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HDD", "SSD"]
+  notes: ""
+
+- acronym: "RAS"
+  definition: "Remote Access Server"
+  category: "Networking / Access"
+  description: "A server that allows users to connect to a network remotely using dial-up or VPN connections."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RAT"
+  definition: "Remote Access Trojan"
+  category: "Security / Malware"
+  description: "Malware that allows an attacker to remotely control an infected computer."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RBAC"
+  definition: "Role-based Access Control"
+  category: "Security / Access Control"
+  description: "A method of regulating access to resources based on the roles assigned to individual users within an organization."
+  aliases: ["Rule-based Access Control"]  # second meaning in your list
+  origin: ""
+  related_acronyms: ["DAC", "MAC", "ABAC", "NGAC"]
+  notes: ""
+
+- acronym: "RC4"
+  definition: "Rivest Cipher version 4"
+  category: "Security / Cryptography"
+  description: "A stream cipher widely used in software applications, but now considered insecure."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RDP"
+  definition: "Remote Desktop Protocol"
+  category: "Networking / Remote Access"
+  description: "A protocol developed by Microsoft that provides a user with a graphical interface to connect to another computer over a network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RFID"
+  definition: "Radio Frequency Identifier"
+  category: "Networking / Security"
+  description: "A technology that uses electromagnetic fields to automatically identify and track tags attached to objects."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RIPEMD"
+  definition: "RACE Integrity Primitives Evaluation Message Digest"
+  category: "Security / Cryptography"
+  description: "A family of cryptographic hash functions designed to provide data integrity."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MD5", "SHA"]
+  notes: ""
+
+- acronym: "ROI"
+  definition: "Return on Investment"
+  category: "Business / Finance"
+  description: "A measure used to evaluate the efficiency or profitability of an investment."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RMF"
+  definition: "Risk Management Framework"
+  category: "Security / Risk Management"
+  description: "A structured approach used to manage risks associated with information systems."
+  aliases: []
+  origin: ""
+  related_acronyms: ["NIST"]
+  notes: ""
+
+- acronym: "RPO"
+  definition: "Recovery Point Objective"
+  category: "Business / Risk Management"
+  description: "The maximum tolerable period in which data might be lost due to a disaster or system failure."
+  aliases: []
+  origin: ""
+  related_acronyms: ["RTO"]
+  notes: ""
+
+- acronym: "RSA"
+  definition: "Rivest, Shamir, & Adleman"
+  category: "Security / Cryptography"
+  description: "A widely used public-key cryptosystem for secure data transmission and digital signatures."
+  aliases: []
+  origin: ""
+  related_acronyms: ["DSA", "ECC", "ECDSA"]
+  notes: ""
+
+- acronym: "RTBH"
+  definition: "Remotely Triggered Black Hole"
+  category: "Networking / Security"
+  description: "A network mechanism used to drop malicious traffic before it reaches a destination network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RTO"
+  definition: "Recovery Time Objective"
+  category: "Business / Risk Management"
+  description: "The maximum acceptable amount of time a system can be offline after a failure or disaster."
+  aliases: []
+  origin: ""
+  related_acronyms: ["RPO"]
+  notes: ""
+
+- acronym: "RTOS"
+  definition: "Real-time Operating System"
+  category: "Software / Systems"
+  description: "An operating system that guarantees a certain capability within a specified time constraint for real-time applications."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "RTP"
+  definition: "Real-time Transport Protocol"
+  category: "Networking / Multimedia"
+  description: "A protocol designed for delivering audio and video over IP networks in real-time."
+  aliases: []
+  origin: ""
+  related_acronyms: ["RTCP"]
+  notes: ""
+
+- acronym: "S/MIME"
+  definition: "Secure/Multipurpose Internet Mail Extensions"
+  category: "Security / Email"
+  description: "A standard for public key encryption and signing of MIME data to secure emails."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PGP", "PEM"]
+  notes: ""
+
+- acronym: "SaaS"
+  definition: "Software as a Service"
+  category: "Cloud / Services"
+  description: "A cloud computing service model providing access to software applications over the internet without local installation."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IaaS", "PaaS", "CSP"]
+  notes: ""
+
+- acronym: "SAML"
+  definition: "Security Assertions Markup Language"
+  category: "Security / Authentication"
+  description: "An XML-based standard for exchanging authentication and authorization data between parties."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SSO", "IdP", "OAuth"]
+  notes: ""
+
+- acronym: "SAN"
+  definition: "Storage Area Network / Subject Alternative Name"
+  category: "Networking / Storage"
+  description: "A specialized high-speed network providing block-level storage access (also used in certificates for additional domain names)."
+  aliases: []
+  origin: ""
+  related_acronyms: ["NAS"]
+  notes: ""
+
+- acronym: "SCADA"
+  definition: "System Control and Data Acquisition"
+  category: "Industrial / Networking"
+  description: "A control system architecture that uses computers, networked data communications, and graphical interfaces for industrial processes."
+  aliases: []
+  origin: ""
+  related_acronyms: ["ICS"]
+  notes: ""
+
+- acronym: "SCAP"
+  definition: "Security Content Automation Protocol"
+  category: "Security / Standards"
+  description: "A method for using specific standards to enable automated vulnerability management and policy compliance evaluation."
+  aliases: []
+  origin: ""
+  related_acronyms: ["OVAL"]
+  notes: ""
+
+- acronym: "SCEP"
+  definition: "Simple Certificate Enrollment Protocol"
+  category: "Security / PKI"
+  description: "A protocol that simplifies the process of certificate enrollment and management."
+  aliases: []
+  origin: ""
+  related_acronyms: ["PKI", "CSR", "CA"]
+  notes: ""
+
+- acronym: "SCP"
+  definition: "Secure Copy"
+  category: "Networking / File Transfer"
+  description: "A protocol used to securely transfer files between hosts over a network using SSH."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SFTP", "FTP"]
+  notes: ""
+
+- acronym: "SCSI"
+  definition: "Small Computer System Interface"
+  category: "Hardware / Storage"
+  description: "A set of standards for connecting and transferring data between computers and peripheral devices."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HDD", "SSD"]
+  notes: ""
+
+- acronym: "SDK"
+  definition: "Software Development Kit"
+  category: "Software / Development"
+  description: "A collection of software tools, libraries, and documentation for developing applications for a specific platform."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SDLC"
+  definition: "Software Development Life Cycle"
+  category: "Software / Development"
+  description: "A process for planning, creating, testing, and deploying information systems and software."
+  aliases: ["SDLM"]  # second meaning in your list
+  origin: ""
+  related_acronyms: ["RAD", "Agile", "Waterfall"]
+  notes: ""
+
+- acronym: "SDN"
+  definition: "Software Defined Network"
+  category: "Networking"
+  description: "An approach to networking that uses software-based controllers to manage network traffic dynamically."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SED"
+  definition: "Self-encrypting Drive"
+  category: "Hardware / Storage"
+  description: "A storage device that automatically encrypts all data written to the disk to protect it from unauthorized access."
+  aliases: []
+  origin: ""
+  related_acronyms: ["FDE", "HDD", "SSD"]
+  notes: ""
+
+- acronym: "SEH"
+  definition: "Structured Exception Handler"
+  category: "Software / Systems"
+  description: "A mechanism for handling exceptions and errors in Windows operating systems."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SFTP"
+  definition: "Secured File Transfer Protocol"
+  category: "Networking / File Transfer"
+  description: "A secure version of FTP that uses SSH to encrypt data and commands."
+  aliases: []
+  origin: ""
+  related_acronyms: ["FTP", "FTPS"]
+  notes: ""
+
+- acronym: "SHA"
+  definition: "Secure Hashing Algorithm"
+  category: "Security / Cryptography"
+  description: "A family of cryptographic hash functions designed to provide data integrity."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MD5", "RIPEMD"]
+  notes: ""
+
+- acronym: "SHTTP"
+  definition: "Secure Hypertext Transfer Protocol"
+  category: "Networking / Web Security"
+  description: "A protocol designed to encrypt web communication similar to HTTPS but less commonly used."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HTTP", "HTTPS", "SSL", "TLS"]
+  notes: ""
+
+- acronym: "SIEM"
+  definition: "Security Information and Event Management"
+  category: "Security / Monitoring"
+  description: "A solution that provides real-time analysis of security alerts generated by applications and network hardware."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SIM"
+  definition: "Subscriber Identity Module"
+  category: "Networking / Mobile"
+  description: "A smart card used to store subscriber information and authenticate users on mobile networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IMSI"]
+  notes: ""
+
+- acronym: "SLA"
+  definition: "Service Level Agreement"
+  category: "Business / IT Services"
+  description: "A formal contract between service providers and clients defining the expected level of service."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SLE"
+  definition: "Single Loss Expectancy"
+  category: "Security / Risk Management"
+  description: "The expected monetary loss every time a risk event occurs."
+  aliases: []
+  origin: ""
+  related_acronyms: ["ALE"]
+  notes: ""
+
+- acronym: "SMB"
+  definition: "Server Message Block"
+  category: "Networking / File Sharing"
+  description: "A network protocol for providing shared access to files, printers, and serial ports between nodes on a network."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SMS"
+  definition: "Short Message Service"
+  category: "Networking / Communication"
+  description: "A text messaging service component of most telephone, internet, and mobile device systems."
+  aliases: []
+  origin: ""
+  related_acronyms: ["MMS", "IM"]
+  notes: ""
+
+- acronym: "SMTP"
+  definition: "Simple Mail Transfer Protocol"
+  category: "Networking / Email"
+  description: "An Internet standard for email transmission across IP networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IMAP4", "POP"]
+  notes: ""
+
+- acronym: "SMTPS"
+  definition: "Simple Mail Transfer Protocol Secure"
+  category: "Networking / Email"
+  description: "An extension of SMTP that adds support for encryption via SSL/TLS."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SMTP"]
+  notes: ""
+
+- acronym: "SNMP"
+  definition: "Simple Network Management Protocol"
+  category: "Networking / Monitoring"
+  description: "A protocol for collecting and organizing information about managed devices on IP networks."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SOAP"
+  definition: "Simple Object Access Protocol"
+  category: "Software / Web Services"
+  description: "A protocol specification for exchanging structured information in web services implementation."
+  aliases: []
+  origin: ""
+  related_acronyms: ["REST", "API"]
+  notes: ""
+
+- acronym: "SoC"
+  definition: "System on Chip"
+  category: "Hardware / Embedded"
+  description: "An integrated circuit that incorporates all components of a computer or other electronic systems on a single chip."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SPF"
+  definition: "Sender Policy Framework"
+  category: "Networking / Email Security"
+  description: "An email authentication method designed to detect forging sender addresses during the delivery of the email."
+  aliases: []
+  origin: ""
+  related_acronyms: ["DKIM", "DMARC"]
+  notes: ""
+
+- acronym: "SPIM"
+  definition: "Spam over Internet Messaging"
+  category: "Networking / Security"
+  description: "The act of sending unsolicited messages over instant messaging platforms."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SPAM", "SMS"]
+  notes: ""
+
+- acronym: "SPoF"
+  definition: "Single Point of Failure"
+  category: "Networking / Systems Design"
+  description: "A component whose failure will stop the entire system from working."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "SQL"
+  definition: "Structured Query Language"
+  category: "Software / Databases"
+  description: "A standardized programming language used to manage and manipulate relational databases."
+  aliases: []
+  origin: ""
+  related_acronyms: ["T-SQL", "PL/SQL"]
+  notes: ""
+
+- acronym: "SRTP"
+  definition: "Secure Real-Time Protocol"
+  category: "Networking / Multimedia Security"
+  description: "A protocol providing encryption, message authentication, and integrity for real-time voice and video over IP networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["RTP"]
+  notes: ""
+
+- acronym: "SSD"
+  definition: "Solid State Drive"
+  category: "Hardware / Storage"
+  description: "A storage device that uses integrated circuit assemblies to store data persistently, typically using flash memory."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HDD"]
+  notes: ""
+
+- acronym: "SSH"
+  definition: "Secure Shell"
+  category: "Networking / Security"
+  description: "A protocol providing secure network services over an unsecured network by using encryption."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SCP", "SFTP"]
+  notes: ""
+
+- acronym: "SSID"
+  definition: "Service Set Identifier"
+  category: "Networking / Wireless"
+  description: "The name assigned to a Wi-Fi network to uniquely identify it among multiple networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WLAN"]
+  notes: ""
+
+- acronym: "SSL"
+  definition: "Secure Sockets Layer"
+  category: "Networking / Security"
+  description: "A standard security protocol for establishing encrypted links between a web server and a browser."
+  aliases: []
+  origin: ""
+  related_acronyms: ["TLS", "HTTPS"]
+  notes: ""
+
+- acronym: "SSO"
+  definition: "Single Sign-on"
+  category: "Security / Authentication"
+  description: "A property of access control that allows a user to log in once and access multiple systems without being prompted to log in again."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SAML", "OAuth"]
+  notes: ""
+
+- acronym: "STP"
+  definition: "Shielded Twisted Pair"
+  category: "Networking / Cabling"
+  description: "A type of twisted pair cable with shielding to reduce electromagnetic interference."
+  aliases: []
+  origin: ""
+  related_acronyms: ["UTP"]
+  notes: ""
+
+- acronym: "TACACS+"
+  definition: "Terminal Access Controller Access Control System Plus"
+  category: "Security / Authentication"
+  description: "A protocol for remote authentication and authorization for network devices."
+  aliases: []
+  origin: ""
+  related_acronyms: ["RADIUS", "AAA"]
+  notes: ""
+
+- acronym: "TCP/IP"
+  definition: "Transmission Control Protocol/Internet Protocol"
+  category: "Networking / Protocols"
+  description: "A suite of communication protocols used to interconnect network devices on the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IP", "UDP"]
+  notes: ""
+
+- acronym: "TGT"
+  definition: "Ticket Granting Ticket"
+  category: "Security / Authentication"
+  description: "A ticket used in Kerberos authentication to request service tickets for access to network resources."
+  aliases: []
+  origin: ""
+  related_acronyms: ["KDC"]
+  notes: ""
+
+- acronym: "TKIP"
+  definition: "Temporal Key Integrity Protocol"
+  category: "Security / Wireless"
+  description: "A security protocol designed to replace WEP in Wi-Fi networks, providing per-packet key mixing and integrity checks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WPA", "WPA2"]
+  notes: ""
+
+- acronym: "TLS"
+  definition: "Transport Layer Security"
+  category: "Networking / Security"
+  description: "A cryptographic protocol designed to provide secure communication over a computer network, successor to SSL."
+  aliases: []
+  origin: ""
+  related_acronyms: ["SSL", "HTTPS"]
+  notes: ""
+
+- acronym: "TOTP"
+  definition: "Time-based One-time Password"
+  category: "Security / Authentication"
+  description: "A temporary passcode generated using the current time and a shared secret for multi-factor authentication."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HOTP", "MFA"]
+  notes: ""
+
+- acronym: "TPM"
+  definition: "Trusted Platform Module"
+  category: "Security / Hardware"
+  description: "A hardware component providing secure cryptographic functions, such as key generation, encryption, and authentication."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "TSIG"
+  definition: "Transaction Signature"
+  category: "Security / Networking"
+  description: "A protocol used to secure DNS messages by providing authentication using shared secret keys."
+  aliases: []
+  origin: ""
+  related_acronyms: ["DNS"]
+  notes: ""
+
+- acronym: "UAT"
+  definition: "User Acceptance Testing"
+  category: "Software / Testing"
+  description: "The process of verifying that a software application meets business requirements and is ready for deployment."
+  aliases: []
+  origin: ""
+  related_acronyms: ["TDD", "BDD"]
+  notes: ""
+
+- acronym: "UAV"
+  definition: "Unmanned Aerial Vehicle"
+  category: "Hardware / Networking"
+  description: "An aircraft operated without a human pilot on board, often used in surveillance, research, and delivery."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "UDP"
+  definition: "User Datagram Protocol"
+  category: "Networking / Protocols"
+  description: "A connectionless protocol that allows data to be sent without establishing a dedicated end-to-end connection."
+  aliases: []
+  origin: ""
+  related_acronyms: ["TCP", "IP"]
+  notes: ""
+
+- acronym: "UEFI"
+  definition: "Unified Extensible Firmware Interface"
+  category: "Hardware / System Firmware"
+  description: "A modern firmware interface for computers that provides boot and runtime services for operating systems."
+  aliases: []
+  origin: ""
+  related_acronyms: ["BIOS"]
+  notes: ""
+
+- acronym: "UPS"
+  definition: "Uninterruptable Power Supply"
+  category: "Hardware / Power"
+  description: "A device that provides emergency power to a load when the input power source fails."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "URI"
+  definition: "Uniform Resource Identifier"
+  category: "Networking / Web"
+  description: "A string of characters used to identify a resource on the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: ["URL"]
+  notes: ""
+
+- acronym: "URL"
+  definition: "Universal Resource Locator"
+  category: "Networking / Web"
+  description: "A reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it."
+  aliases: []
+  origin: ""
+  related_acronyms: ["URI"]
+  notes: ""
+
+- acronym: "USB"
+  definition: "Universal Serial Bus"
+  category: "Hardware / Interfaces"
+  description: "An industry standard for cables, connectors, and protocols for connection, communication, and power supply between computers and devices."
+  aliases: ["USB OTG"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "UTM"
+  definition: "Unified Threat Management"
+  category: "Security / Networking"
+  description: "An all-in-one security appliance that integrates multiple security functions, such as firewall, intrusion detection, and antivirus."
+  aliases: []
+  origin: ""
+  related_acronyms: ["UTP", "WAF"]
+  notes: ""
+
+- acronym: "UTP"
+  definition: "Unshielded Twisted Pair"
+  category: "Networking / Cabling"
+  description: "A popular cable type used in telecommunications and computer networking that consists of pairs of wires twisted together."
+  aliases: []
+  origin: ""
+  related_acronyms: ["STP"]
+  notes: ""
+
+- acronym: "VDE"
+  definition: "Virtual Desktop Environment"
+  category: "Software / Virtualization"
+  description: "An environment in which a user's desktop operating system is virtualized and hosted on a centralized server."
+  aliases: ["VDI"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "VDI"
+  definition: "Virtual Desktop Infrastructure"
+  category: "Software / Virtualization"
+  description: "A technology that hosts a desktop operating system on a centralized server and deploys it to end users on request."
+  aliases: ["VDE"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "VLAN"
+  definition: "Virtual Local Area Network"
+  category: "Networking"
+  description: "A logical subdivision of a LAN that groups devices on separate physical LANs into a single broadcast domain."
+  aliases: []
+  origin: ""
+  related_acronyms: ["LAN"]
+  notes: ""
+
+- acronym: "VLSM"
+  definition: "Variable Length Subnet Masking"
+  category: "Networking"
+  description: "A technique that allows network administrators to divide an IP address space into subnets of different sizes."
+  aliases: []
+  origin: ""
+  related_acronyms: ["CIDR"]
+  notes: ""
+
+- acronym: "VM"
+  definition: "Virtual Machine"
+  category: "Software / Virtualization"
+  description: "An emulation of a computer system that provides the functionality of a physical computer."
+  aliases: []
+  origin: ""
+  related_acronyms: ["VDI", "VDE"]
+  notes: ""
+
+- acronym: "VoIP"
+  definition: "Voice over IP"
+  category: "Networking / Communication"
+  description: "A technology that allows voice communication over Internet Protocol networks, including the Internet."
+  aliases: []
+  origin: ""
+  related_acronyms: ["RTP", "SRTP"]
+  notes: ""
+
+- acronym: "VPN"
+  definition: "Virtual Private Network"
+  category: "Networking / Security"
+  description: "A service that encrypts your Internet connection and hides your online activity to provide privacy and security."
+  aliases: []
+  origin: ""
+  related_acronyms: ["IPSec", "L2TP", "PPTP"]
+  notes: ""
+
+- acronym: "VTC"
+  definition: "Video Teleconferencing"
+  category: "Networking / Communication"
+  description: "Technology that allows users in different locations to hold face-to-face meetings without being in the same place."
+  aliases: []
+  origin: ""
+  related_acronyms: ["VoIP"]
+  notes: ""
+
+- acronym: "WAF"
+  definition: "Web Application Firewall"
+  category: "Security / Web"
+  description: "A firewall that monitors, filters, and blocks HTTP traffic to and from a web application to prevent attacks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["UTM"]
+  notes: ""
+
+- acronym: "WAP"
+  definition: "Wireless Access Point"
+  category: "Networking / Wireless"
+  description: "A device that allows wireless devices to connect to a wired network using Wi-Fi or related standards."
+  aliases: []
+  origin: ""
+  related_acronyms: ["AP", "WLAN"]
+  notes: ""
+
+- acronym: "WEP"
+  definition: "Wired Equivalent Privacy"
+  category: "Security / Wireless"
+  description: "A security protocol for wireless networks, now considered insecure and replaced by WPA/WPA2."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WPA", "WPA2"]
+  notes: ""
+
+- acronym: "WIDS"
+  definition: "Wireless Intrusion Detection System"
+  category: "Security / Wireless"
+  description: "A system designed to monitor a wireless network for unauthorized access or anomalies."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WIPS"]
+  notes: ""
+
+- acronym: "WIPS"
+  definition: "Wireless Intrusion Prevention System"
+  category: "Security / Wireless"
+  description: "A system that detects and actively prevents unauthorized access or attacks on a wireless network."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WIDS"]
+  notes: ""
+
+- acronym: "WORM"
+  definition: "Write Once Read Many"
+  category: "Hardware / Storage"
+  description: "A storage medium that allows data to be written once and read multiple times without modification."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "WPA"
+  definition: "WiFi Protected Access"
+  category: "Security / Wireless"
+  description: "A security protocol designed to secure wireless computer networks, succeeding WEP."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WPA2", "TKIP", "PSK"]
+  notes: ""
+
+- acronym: "WPA2"
+  definition: "WiFi Protected Access 2"
+  category: "Security / Wireless"
+  description: "The second generation of WPA, providing stronger security with AES-based encryption."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WPA", "AES"]
+  notes: ""
+
+- acronym: "WPS"
+  definition: "WiFi Protected Setup"
+  category: "Security / Wireless"
+  description: "A network security standard that allows users to easily set up a secure wireless home network."
+  aliases: []
+  origin: ""
+  related_acronyms: ["WPA", "WPA2"]
+  notes: ""
+
+- acronym: "WTLS"
+  definition: "Wireless TLS"
+  category: "Networking / Security"
+  description: "A security protocol for securing wireless communications, adapted from TLS for low-bandwidth networks."
+  aliases: []
+  origin: ""
+  related_acronyms: ["TLS", "WEP", "WPA"]
+  notes: ""
+
+- acronym: "XML"
+  definition: "Extensible Markup Language"
+  category: "Software / Web Development"
+  description: "A markup language that defines rules for encoding documents in a format that is readable by humans and machines."
+  aliases: []
+  origin: ""
+  related_acronyms: ["HTML", "XSD", "XSLT"]
+  notes: ""
+
+- acronym: "XOR"
+  definition: "Exclusive Or"
+  category: "Software / Programming"
+  description: "A logical operation that outputs true only when the inputs differ (one true, one false)."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "XSRF"
+  definition: "Cross-site Request Forgery"
+  category: "Security / Web"
+  description: "A type of attack that tricks a user into executing unwanted actions on a web application in which they are authenticated."
+  aliases: ["CSRF"]
+  origin: ""
+  related_acronyms: []
+  notes: ""
+
+- acronym: "XSS"
+  definition: "Cross-site Scripting"
+  category: "Security / Web"
+  description: "A security vulnerability that allows attackers to inject malicious scripts into content delivered to users."
+  aliases: []
+  origin: ""
+  related_acronyms: []
+  notes: ""
