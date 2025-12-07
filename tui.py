@@ -44,7 +44,7 @@ def main(stdscr):
             else:
                 stdscr.addstr(idx - start, 0, f"  {entry['acronym']}: {entry['definition']}")
 
-        stdscr.addstr(h-2, 0, "UP/DOWN: Navigate  A: Add  D: Delete  Q: Quit")
+        stdscr.addstr(h-2, 0, "UP/DOWN (k/j): Navigate  A: Add  D: Delete  Q: Quit")
         stdscr.refresh()
 
         key = stdscr.getch()
