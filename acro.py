@@ -132,19 +132,39 @@ def main():
     )
 
     parser.add_argument(
-    "-l", "--limit",
-    type=int,
-    default=3,
-    help="Maximum number of fuzzy acronym matches to return (default: 3)"
+        "-l", "--limit",
+        type=int,
+        default=3,
+        help="Maximum number of fuzzy acronym matches to return (default: 3)"
+    )
+
+    parser.add_argument(
+        "-t", "--tui",
+        nargs="?",
+        action="store_true",
+        help="Launch TUI mode"
     )
 
     args = parser.parse_args()
+
+    # Validate missing query when not using TUI
+    if not args.tui and not args.query:
+        parser.error("the `query` term is ~required~ unless using TUI mode")
+
+    # run tui.py if flagged
+    if args.tui:
+        import tui
+        tui.main()
+        return
+
     query = args.query.strip().upper()
 
     # Load data
     data = load_yaml(DEFAULT_YAML)
     acronym_index = build_acronym_index(data)
     category_index = build_category_index(data)
+
+    
 
     # --------------------------------------------------------
     # 1️⃣ Exact acronym match (case-insensitive)
