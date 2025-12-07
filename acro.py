@@ -149,7 +149,7 @@ def main():
     # --------------------------------------------------------
     # 1️⃣ Exact acronym match (case-insensitive)
     # --------------------------------------------------------
-    entry = acronym_index.get(query)
+    entry = acronym_index.get(query.lower())
     if entry:
         display_entry(entry)
         return

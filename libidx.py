@@ -1,49 +1,5 @@
 # libidx.py
 
-# def build_acronym_index(data):
-#     """
-#     Build a fast lookup table from a structured acronym YAML dictionary.
-
-#     Args:
-#         data (dict): Dictionary of categories → list of acronym entries.
-#             Example:
-#             {
-#             "Security": [{entry1}, {entry2}, ...],
-#             "Networking": [{entry3}, ...],
-#             }
-
-#     Returns:
-#         dict: Mapping of acronym or alias → entry object.
-#     """
-#     index = {}
-#     for category_entries in data.values():
-#         for entry in category_entries:
-#             # Primary acronym
-#             index[entry["acronym"]] = entry
-#             # Aliases
-#             for alias in entry.get("aliases", []):
-#                 index[alias] = entry
-#     return index
-
-# def build_acronym_index(data):
-#     acronym_index = {}
-
-#     if isinstance(data, dict):
-#         iterable = data.values()
-#     elif isinstance(data, list):
-#         iterable = data
-#     else:
-#         raise TypeError(f"Unsupported data type: {type(data)}")
-
-#     for category in iterable:
-#         if isinstance(category, list):
-#             for entry in category:
-#                 acronym_index[entry["acronym"]] = entry["definition"]
-#         else:
-#             acronym_index[category["acronym"]] = category["definition"]
-
-#     return acronym_index
-
 def build_acronym_index(data):
     acronym_index = {}
 
@@ -51,7 +7,11 @@ def build_acronym_index(data):
         for entry in category_entries:
             acronym = entry.get("acronym")
             if acronym:
-                acronym_index[acronym] = entry  # store whole entry
+                acronym_index[acronym.lower()] = entry  # store whole entry
+
+            # Include aliases
+            for alias in entry.get("aliases", []):
+                acronym_index[alias.lower()] = entry
 
     return acronym_index
 
