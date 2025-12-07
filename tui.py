@@ -12,6 +12,86 @@ import crud  # our CRUD functions
 
 YAML_FILE = "acronyms.yaml"
 
+def main_menu(stdscr):
+    curses.curs_set(0)
+    stdscr.clear()
+    stdscr.refresh()
+
+    menu_items = [
+        ("Browse Acronyms", "browse"),
+        ("Add Acronym", "add"),
+        ("Edit Acronym", "edit"),
+        ("Delete Acronym", "delete"),
+        ("Search", "search"),
+        ("Quit", "quit")
+    ]
+
+    selected = 0
+
+    while True:
+        stdscr.clear()
+        h, w = stdscr.getmaxyx()
+
+        # Popup width calculations (PADDED)
+        padding_x = 6
+        padding_y = 4
+        max_label_len = max(len(label) for label, _ in menu_items)
+        win_width = max_label_len + padding_x + 4
+        win_height = len(menu_items) + padding_y + 4
+
+        # Center window position
+        start_y = (h - win_height) // 2
+        start_x = (w - win_width) // 2
+
+        # Create popup window
+        win = curses.newwin(win_height, win_width, start_y, start_x)
+
+        # Draw rounded border
+        win.addstr(0, 0,  "╭" + "─" * (win_width - 2) + "╮")
+        win.addstr(win_height - 1, 0, "╰" + "─" * (win_width - 2) + "╯")
+        for y in range(1, win_height - 1):
+            win.addstr(y, 0, "│")
+            win.addstr(y, win_width - 1, "│")
+
+        # Title
+        title = "ACROMAN — Main Menu"
+        win.addstr(2, (win_width // 2) - (len(title) // 2), title, curses.A_BOLD)
+
+        # Menu items
+        for idx, (label, action) in enumerate(menu_items):
+            y = 4 + idx
+            x = 4
+
+            if idx == selected:
+                win.attron(curses.A_REVERSE)
+                win.addstr(y, x, f"  {label}")
+                win.attroff(curses.A_REVERSE)
+            else:
+                win.addstr(y, x, f"  {label}")
+
+        win.refresh()
+
+        # Read user key
+        key = stdscr.getch()
+
+        # Movement (vim + arrows)
+        if key in (curses.KEY_UP, ord('k')):
+            if selected > 0:
+                selected -= 1
+
+        elif key in (curses.KEY_DOWN, ord('j')):
+            if selected < len(menu_items) - 1:
+                selected += 1
+
+        # Select (Enter, Space, Right, l)
+        elif key in (curses.KEY_ENTER, 10, 13, ord('l'), ord(' '), curses.KEY_RIGHT):
+            return menu_items[selected][1]
+
+        # Quit with q / h / left
+        elif key in (ord('q'), ord('Q'), ord('h'), curses.KEY_LEFT):
+            return "quit"
+
+
 def main(stdscr):
     curses.curs_set(0)  # hide cursor
     stdscr.clear()
