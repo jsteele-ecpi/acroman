@@ -8,10 +8,8 @@
 ## Features
 
 - 🔍 **Exact lookup**: Quickly retrieve an acronym’s full expansion, category, description, aliases, origin, and related terms.  
-- 🎯 **Fuzzy search**: Match partial terms in acronyms, aliases, or descriptions.  
-- 🗂️ **Category-aware**: Each entry contains metadata like category and related acronyms.  
+- 🎯 **Fuzzy search**: Match partial terms in acronyms, aliases, or descriptions.    
 - ⚡ **Fast**: Uses an in-memory index for O(1) lookups, even with thousands of entries.  
-- 🛠️ **TUI-ready**: Designed to integrate seamlessly with a future terminal UI.
 
 ---
 
@@ -44,28 +42,28 @@ python3 acro.py API
 ```bash
 python acro.py interface -f
 ```
-
 Returns all entries where `interface` appears in the acronym, aliases, or description.
 
 ## Development Notes
 
 All acronym data is CRUD-ready, enabling future integration with a TUI or database backend.
-
 Indexes (acronym_index and category_index) ensure lightning-fast lookups.
-
 Aliases are automatically included in lookups — no duplicate entries required.
 
-⚡ Tip: Even with ~2,500 YAML lines, lookups are instantaneous due to the hash-table index.
+⚡- Even with ~2,500 YAML lines, lookups are instantaneous due to the hash-table index.
+
+### Road Map
+
+- 🛠️ **TUI-ready**: Designed to integrate seamlessly with a future terminal UI.
+- 🗂️ **Category-aware**: Each entry contains metadata like category and related acronyms.
 
 ## Contributing
 
 Fork the repository
-
 Make edits to acronyms.yaml or libidx.py
-
 Submit a pull request
 
-All contributions should maintain consistent YAML formatting and index-friendly structure.
+> All contributions should maintain consistent YAML formatting and index-friendly structure.
 
 ## License
 

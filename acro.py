@@ -122,6 +122,7 @@ def main():
 
     parser.add_argument(
         "query",
+        nargs="?",
         help="Acronym or term to search for"
     )
 
@@ -140,7 +141,6 @@ def main():
 
     parser.add_argument(
         "-t", "--tui",
-        nargs="?",
         action="store_true",
         help="Launch TUI mode"
     )
@@ -154,7 +154,7 @@ def main():
     # run tui.py if flagged
     if args.tui:
         import tui
-        tui.main()
+        tui.run()
         return
 
     query = args.query.strip().upper()

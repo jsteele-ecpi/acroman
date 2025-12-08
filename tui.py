@@ -8,11 +8,79 @@ Prototype ncurses TUI for acronym lookup and CRUD operations.
 import curses
 import yaml
 from libidx import build_acronym_index, build_category_index
-import crud  # our CRUD functions
+import crud 
 
 YAML_FILE = "acronyms.yaml"
 
+def input_popup(stdscr, prompt):
+    """
+    Display a centered popup asking for a single text input.
+    Returns the entered text, or None if cancelled.
+    Unicode-rounded border version with safe sizing for Windows.
+    """
+
+    curses.curs_set(1)  # show cursor for input
+    stdscr.clear()
+    h, w = stdscr.getmaxyx()
+
+    # --- SAFE POPUP DIMENSIONS ---
+    padding_x = 10
+    padding_y = 6
+
+    text_width = len(prompt) + padding_x
+    win_width = min(text_width, w - 4)
+    win_width = max(win_width, 30)
+
+    win_height = padding_y
+    win_height = min(win_height, h - 4)
+    win_height = max(win_height, 8)
+
+    # Center window
+    start_y = (h - win_height) // 2
+    start_x = (w - win_width) // 2
+
+    # Create popup window
+    win = curses.newwin(win_height, win_width, start_y, start_x)
+
+    # --- Unicode Rounded Border (Safe Drawing) ---
+    top_border    = "╭" + "─" * (win_width - 2) + "╮"
+    bottom_border = "╰" + "─" * (win_width - 2) + "╯"
+
+    win.addstr(0, 0, top_border[:win_width])
+    win.addstr(win_height - 1, 0, bottom_border[:win_width])
+
+    for y in range(1, win_height - 1):
+        win.addstr(y, 0, "│")
+        win.addstr(y, win_width - 1, "│")
+    # ------------------------------------------------
+
+    # Prompt label
+    win.addstr(2, 2, prompt[:win_width - 4])
+
+    # Input box (inside popup)
+    input_width = win_width - 4
+    input_win = curses.newwin(1, input_width, start_y + 4, start_x + 2)
+    textpad = curses.textpad.Textbox(input_win)
+
+    win.refresh()
+
+    try:
+        user_input = textpad.edit().strip()
+    except:
+        user_input = ""
+
+    curses.curs_set(0)
+
+    if not user_input:
+        return None
+
+    return user_input
+
 def main_menu(stdscr):
+    """
+    Neovim-style centered popup main menu with rounded Unicode borders and vim keybindings.
+    SAFE WINDOW VERSION – guaranteed not to cause addwstr() ERR on Windows.
+    """
     curses.curs_set(0)
     stdscr.clear()
     stdscr.refresh()
@@ -32,131 +100,149 @@ def main_menu(stdscr):
         stdscr.clear()
         h, w = stdscr.getmaxyx()
 
-        # Popup width calculations (PADDED)
-        padding_x = 6
-        padding_y = 4
-        max_label_len = max(len(label) for label, _ in menu_items)
-        win_width = max_label_len + padding_x + 4
-        win_height = len(menu_items) + padding_y + 4
+        # ===== SAFE SIZING SECTION =====
+        MAX_WIDTH = w - 6     # leave 3 cols margin on each side
+        MAX_HEIGHT = h - 6    # leave 3 rows margin on top/bottom
 
-        # Center window position
-        start_y = (h - win_height) // 2
-        start_x = (w - win_width) // 2
+        label_width = max(len(label) for label, _ in menu_items)
+        padding_x = 10
+        padding_y = 8
 
-        # Create popup window
+        desired_width = label_width + padding_x
+        desired_height = len(menu_items) + padding_y
+
+        win_width = min(desired_width, MAX_WIDTH)
+        win_height = min(desired_height, MAX_HEIGHT)
+
+        win_width = max(win_width, 30)
+        win_height = max(win_height, 12)
+
+        start_y = max((h - win_height) // 2, 2)
+        start_x = max((w - win_width) // 2, 2)
+        # =================================
+
         win = curses.newwin(win_height, win_width, start_y, start_x)
 
-        # Draw rounded border
-        win.addstr(0, 0,  "╭" + "─" * (win_width - 2) + "╮")
-        win.addstr(win_height - 1, 0, "╰" + "─" * (win_width - 2) + "╯")
+        # Borders
+        top_border = "╭" + "─" * (win_width - 2) + "╮"
+        bot_border = "╰" + "─" * (win_width - 2) + "╯"
+
+        win.addstr(0, 0, top_border[:win_width])
+        win.addstr(win_height - 1, 0, bot_border[:win_width])
+
         for y in range(1, win_height - 1):
             win.addstr(y, 0, "│")
             win.addstr(y, win_width - 1, "│")
 
         # Title
         title = "ACROMAN — Main Menu"
-        win.addstr(2, (win_width // 2) - (len(title) // 2), title, curses.A_BOLD)
+        title_x = max((win_width // 2) - (len(title) // 2), 1)
+        win.addstr(2, title_x, title[:win_width - 2], curses.A_BOLD)
 
         # Menu items
-        for idx, (label, action) in enumerate(menu_items):
+        for idx, (label, _) in enumerate(menu_items):
             y = 4 + idx
             x = 4
+            truncated = label[: win_width - 6]
 
             if idx == selected:
                 win.attron(curses.A_REVERSE)
-                win.addstr(y, x, f"  {label}")
+                win.addstr(y, x, truncated)
                 win.attroff(curses.A_REVERSE)
             else:
-                win.addstr(y, x, f"  {label}")
+                win.addstr(y, x, truncated)
 
         win.refresh()
 
-        # Read user key
+        # Input handling
         key = stdscr.getch()
 
-        # Movement (vim + arrows)
         if key in (curses.KEY_UP, ord('k')):
-            if selected > 0:
-                selected -= 1
+            selected = max(0, selected - 1)
 
         elif key in (curses.KEY_DOWN, ord('j')):
-            if selected < len(menu_items) - 1:
-                selected += 1
+            selected = min(len(menu_items) - 1, selected + 1)
 
-        # Select (Enter, Space, Right, l)
         elif key in (curses.KEY_ENTER, 10, 13, ord('l'), ord(' '), curses.KEY_RIGHT):
             return menu_items[selected][1]
 
-        # Quit with q / h / left
         elif key in (ord('q'), ord('Q'), ord('h'), curses.KEY_LEFT):
             return "quit"
 
 
 def main(stdscr):
-    curses.curs_set(0)  # hide cursor
+    """
+    Core TUI loop.
+    Displays the main menu, navigates to selected screens,
+    and returns when user chooses Quit.
+    """
+    curses.curs_set(0)
     stdscr.clear()
     stdscr.refresh()
 
-    # Load data
-    with open(YAML_FILE, "r") as f:
-        data = yaml.safe_load(f)
-
-    acronym_index = build_acronym_index(data)
-    category_index = build_category_index(data)
-
-    # Flatten entries for display
-    entries = [entry for entries_list in category_index.values() for entry in entries_list]
-
-    selected = 0
     while True:
-        stdscr.clear()
-        h, w = stdscr.getmaxyx()
+        # Show main menu and get user's choice
+        choice = main_menu(stdscr)
 
-        # Display 10 entries at a time
-        start = max(0, selected - 5)
-        end = min(len(entries), start + 10)
+        # -------------------------
+        # Main Menu → Browse
+        # -------------------------
+        if choice == "browse":
+            browse_screen(stdscr)
 
-        for idx, entry in enumerate(entries[start:end], start):
-            if idx == selected:
-                stdscr.attron(curses.color_pair(1))
-                stdscr.addstr(idx - start, 0, f"> {entry['acronym']}: {entry['definition']}")
-                stdscr.attroff(curses.color_pair(1))
+        # -------------------------
+        # Main Menu → Add (Test Popup Here)
+        # -------------------------
+        elif choice == "add":
+            temp = input_popup(stdscr, "Enter acronym:")
+
+            # After popup closes, show result or cancellation
+            stdscr.clear()
+            if temp is None:
+                stdscr.addstr(2, 2, "Add cancelled.")
             else:
-                stdscr.addstr(idx - start, 0, f"  {entry['acronym']}: {entry['definition']}")
+                stdscr.addstr(2, 2, f"You entered: {temp}")
+            stdscr.refresh()
+            stdscr.getch()
 
-        stdscr.addstr(h-2, 0, "UP/DOWN (k/j): Navigate  A: Add  D: Delete  Q: Quit")
-        stdscr.refresh()
+        # -------------------------
+        # Main Menu → Edit
+        # (placeholder for now)
+        # -------------------------
+        elif choice == "edit":
+            stdscr.clear()
+            stdscr.addstr(2, 2, "Edit Acronym (not implemented yet)")
+            stdscr.refresh()
+            stdscr.getch()
 
-        key = stdscr.getch()
-        if (key == curses.KEY_UP or key == ord('k')) and selected > 0:
-            selected -= 1
-        elif (key == curses.KEY_DOWN or key == ord('j')) and selected < len(entries) - 1:
-            selected += 1
-        elif key in (ord('q'), ord('Q')):
+        # -------------------------
+        # Main Menu → Delete
+        # -------------------------
+        elif choice == "delete":
+            stdscr.clear()
+            stdscr.addstr(2, 2, "Delete Acronym (not implemented yet)")
+            stdscr.refresh()
+            stdscr.getch()
+
+        # -------------------------
+        # Main Menu → Search
+        # -------------------------
+        elif choice == "search":
+            stdscr.clear()
+            stdscr.addstr(2, 2, "Search (not implemented yet)")
+            stdscr.refresh()
+            stdscr.getch()
+
+        # -------------------------
+        # Main Menu → Quit
+        # -------------------------
+        elif choice == "quit":
             break
-        elif key in (ord('a'), ord('A')):
-            # Minimal add example (real TUI input would be a form)
-            new_entry = {
-                "acronym": "MCP",
-                "definition": "Model Context Protocol",
-                "category": "Software / Networking",
-                "description": "New acronym example",
-                "aliases": [],
-                "origin": "",
-                "related_acronyms": [],
-                "notes": ""
-            }
-            data = crud.add_entry(data, new_entry)
-            crud.save_data(data)
-            entries.append(new_entry)
-        elif key in (ord('d'), ord('D')):
-            entry_to_delete = entries[selected]
-            data, success = crud.delete_entry(data, entry_to_delete["acronym"])
-            if success:
-                crud.save_data(data)
-                entries.pop(selected)
-                if selected >= len(entries):
-                    selected = len(entries) - 1
+
+
+
+def run():
+    curses.wrapper(main)
 
 if __name__ == "__main__":
     curses.wrapper(main)
